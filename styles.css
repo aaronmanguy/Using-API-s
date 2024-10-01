@@ -1,0 +1,79 @@
+.html {
+  background-color: rgb(36, 36, 36);
+}
+
+.head {
+  padding: 40px;
+  background-color: rgb(255, 98, 98);
+  text-align: center;
+  margin-left: 0%;
+}
+
+.logo {
+  width: 30%;
+}
+
+.table-content {
+  text-align: center;
+}
+.table {
+  justify-content: center;
+  margin: auto;
+  width: 30%;
+}
+.table-head {
+  color: rgb(186, 186, 186);
+}
+.td {
+  justify-content: space-evenly;
+  margin: auto;
+}
+.button {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 2%;
+  box-shadow: 5px 5px 5px rgb(255, 98, 98);
+  color: rgb(255, 98, 98);
+  background-color: rgb(59, 59, 59);
+  border: none;
+}
+.button:hover {
+  background-color: rgb(76, 76, 76);
+}
+.back-button {
+  display: none;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  padding: 8px;
+  box-shadow: 5px 5px 5px rgb(255, 98, 98);
+  color: rgb(255, 98, 98);
+  background-color: rgb(59, 59, 59);
+  border: none;
+}
+.back-button:hover {
+  background-color: rgb(76, 76, 76);
+}
+.spell-content {
+  display: none;
+  color: rgb(255, 98, 98);
+}
+.image {
+  justify-content: center;
+  margin: auto;
+}
+.name {
+  text-align: center;
+  font-size: 400%;
+}
+.desc {
+  font-size: 150%;
+}
+.high-level {
+  font-size: 150%;
+}
+.range {
+  font-size: 150%;
+}
+.aoe {
+  font-size: 150%;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using API's</title>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="main.js"></script>
+    <div id="clear-main">
+      <div class="head">
+        <img class="logo" id="logo" src="images/dnd-logo.png" />
+      </div>
+      <div class="table-content">
+        <table class="table">
+          <tr>
+            <th id="table-head" class="table-head">MONSTERS</th>
+            <th id="table-head2" class="table-head">SPELLS</th>
+          </tr>
+          <tr>
+            <td class="td">
+              <button id="Owlbear-button" class="button">Owlbear</button>
+            </td>
+            <td class="td">
+              <button id="fireball-button" class="button">Fireball</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="td">
+              <button id="pegasus-button" class="button">Pegasus</button>
+            </td>
+            <td class="td">
+              <button id="lightingBolt-button" class="button">
+                Lightning Bolt
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td class="td">
+              <button id="adultBlackDragon-button" class="button">
+                Adult Black Dragon
+              </button>
+            </td>
+            <td class="td">
+              <button id="createUndead-button" class="button">
+                Create Undead
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="spell-content" class="spell-content">
+      <p id="name" class="name"></p>
+      <p id="desc" class="desc"></p>
+      <p id="high-level" class="high-level"></p>
+      <p id="range" class="range"></p>
+      <p id="aoe" class="aoe"></p>
+      <img src="" id="image" class="image" />
+    </div>
+    <button id="backButton" class="back-button">Back</button>
+  </body>
+</html>
